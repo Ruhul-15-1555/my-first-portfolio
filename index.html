@@ -1,40 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet">
+    <title>My First Portfolio</title>
 </head>
-
-<body class="open-sans-normal">
-    <!-- navbar -->
-    <header class="header">
+<body>
+    <!-- Nav bar -->
+     <header class="bg-color bg-image">
         <nav>
-            <h3 class="nav-title">Ma<span class="mery-color">r</span>y</h3>
+            <h3  class="nav-title">Ma<span class="title-primary">r</span>y</h3>
             <ul>
                 <li><a class="dark2" href="#">Portfolio</a></li>
                 <li><a class="dark2" href="#">Blog</a></li>
                 <li><a href="#"><button class="btn">Hire Me</button></a></li>
+                
             </ul>
         </nav>
+
         <div class="banner">
             <div class="banner-content">
-                <h4 class="banner-greetings dark2">Hi, I am</h4>
-                <h1 class="banner-title dark1">Mary Hardy</h1>
-                <p class="banner-descrpition dark3">Shot what able cold new see hold.Friendly as an betrayed formerly he.
-                    Morning because as to society behaved moments.</p>
-                <button class="btn">Download CV</button>
-                <button class="btn">Contact</button>
+                <h3 class="banner-greetings dark2">Hi, I am</h3>
+                <h1 class="banner-title dark1">Mary hardy</h1>
+                <p class="banner-description dark3">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
+                <button class="btn-first">Download CV</button>
+                <button class="btn-second">Contact</button>
             </div>
-            <img class="banner-profile-pic" src="/images/hardy.png" alt="Not Founded">
-        </div>
-    </header>
-</body>
 
+            <div class="banner-image">
+                <img src="/images/hardy.png" alt="Not Founded">
+            </div>
+        </div>
+     </header>
+
+
+     <main>
+        <section class="about-me">
+            <div class="about-me-area">
+               <h3 class="about-me-title dark1">About Me</h3>
+               <p class="about-me-description dark3">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional resulfs while working with me. Delivering work within time and budget which meets clients requirements in our mata.</p>
+
+               <div class="about-items">
+                <!-- .about-item*4>p.about-titles+p.about-description -->
+                 <div class="about-item">
+                    <p class="about-titles dark3">Name:</p>
+                    <p class="about-description dark2">Mary Hardy</p>
+                 </div>
+                 <div class="about-item">
+                    <p class="about-titles dark3">Email:</p>
+                    <p class="about-description dark2">info@gmail.com</p>
+                 </div>
+                 <div class="about-item">
+                    <p class="about-titles dark3">Date of birth:</p>
+                    <p class="about-description dark2">09 Apr 1997</p>
+                 </div>
+                 <div class="about-item">
+                    <p class="about-titles dark3">From:</p>
+                    <p class="about-description dark2">Dhaka,BD</p>
+                 </div>
+               </div>
+
+
+            </div>
+
+        </section>
+
+
+        <div class="what">
+                <h3 class="what-title dark1">What I do</h3>
+                <p class="what-description dark3" >I have more than 10 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my experience? Check out my online resume and project portfolio.</p>
+                
+            </div>
+
+            <!-- .techno*4>img.techno-image+.techno-content+h3.techno-title+p.techno-description -->
+
+            <div class="technologies">
+                <div class="techno">
+                    <img src="/images/icons/js.png" alt="Not fonded" class="techno-image">
+                    <div class="techno-content"></div>
+                    <h3 class="techno-title dark1">Vanilla JavaScript</h3>
+                    <p class="techno-description dark3">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="techno">
+                    <img src="/images/icons/react.png" alt="Not fonded" class="techno-image">
+                    <div class="techno-content"></div>
+                    <h3 class="techno-title dark1">React</h3>
+                    <p class="techno-description dark3">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="techno">
+                    <img src="/images/icons/nodejs.png" alt="Not fonded" class="techno-image">
+                    <div class="techno-content"></div>
+                    <h3 class="techno-title dark1">Node.js</h3>
+                    <p class="techno-description dark3">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="techno">
+                    <img src="/images/icons/mongo.png" alt="Not fonded" class="techno-image">
+                    <div class="techno-content"></div>
+                    <h3 class="techno-title dark1">MongoDB</h3>
+                    <p class="techno-description dark3">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+            </div>
+
+
+            <section class="edu-exp">
+                <h2 class="summery dark1">A Summery of My Resume</h2>
+                <div class="education">
+                    <div class="edu-box"><div class="edu edu-border">
+                    <h3 class="edu-title dark2">My Education</h3>
+                    <h4 class="edu-first dark2">Master in Computer Engineering</h4>
+                    <h5 class="harvard dark3">Harvard University / 2015 - 2017</h5>
+                    <p class="skill dark3">List skill/technologies here. You can change the icon above 
+to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="edu edu-border">
+                    <h4 class="edu-first dark2">Master in Computer Engineering</h4>
+                    <h5 class="harvard dark3">Harvard University / 2015 - 2017</h5>
+                    <p class="skill dark3">List skill/technologies here. You can change the icon above 
+to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="edu">
+                    <h4 class="edu-first dark2">Master in Computer Engineering</h4>
+                    <h5 class="harvard dark3">Harvard University / 2015 - 2017</h5>
+                    <p class="skill dark3">List skill/technologies here. You can change the icon above 
+to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div></div>
+                
+
+
+                
+                <div class="exp-box">
+                      <div class="edu edu-border">
+                    <h3 class="edu-title dark2">My Experience</h3>
+                    <h4 class="edu-first dark2">Sr. Font End Developer</h4>
+                    <h5 class="harvard dark3">Apple Inc / 2020 - Current</h5>
+                    <p class="skill dark3">List skill/technologies here. You can change the icon above 
+to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="edu edu-border">
+                    <h4 class="edu-first dark2">Jr. Font End Developer</h4>
+                    <h5 class="harvard dark3">Harvard University / 2015 - 2017</h5>
+                    <p class="skill dark3">List skill/technologies here. You can change the icon above 
+to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="edu">
+                    <h4 class="edu-first dark2 ">Master in Computer Engineering</h4>
+                    <h5 class="harvard dark3">Harvard University / 2015 - 2017</h5>
+                    <p class="skill dark3">List skill/technologies here. You can change the icon above 
+to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                </div>  
+
+                </div>
+
+                <div class="btn-fle"><button class="btn-dwn">Download CV</button></div>
+
+
+
+
+            </section>
+     </main>
+
+
+     <footer class="footerBG-color">
+        <div class="contact-from">
+            <div class="contact ">
+            <h3 class="contact-title dark1">Lets Contact </h3>
+            <p class="contact-description dark2">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+            <div class="contact-image">
+            <a href="#"><img src="/images/icons/facebook.png" alt=""></a>
+            <a href="#"><img src="/images/icons/twitter.png" alt=""></a>
+            <a href="#"><img src="/images/icons/insta.png" alt=""></a>
+            </div>
+        </div>
+
+        <div class="my-from">
+            <form class="contact-form">
+            <h3 class="from-title dark1">Let's Message me</h3>
+            <div class="form-text">
+                <input type="text" class="text-size" name="Your name" placeholder="Your name">
+            </div>
+            <div class="form-email">
+                <input type="email" name="Your email" class="email-size" placeholder="Your email">
+            </div>
+            <div class="form-textarea">
+                <textarea name="Message" class="textarea-size"  placeholder="Message"></textarea>
+            </div>
+            <div>
+                <button class="btn-form" type="button">submit</button>
+            </div>
+        </form>
+        </div>
+        </div>
+
+     </footer>
+
+
+
+</body>
 </html>

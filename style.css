@@ -1,100 +1,374 @@
-.open-sans-normal {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
 }
 
-.header{
-    background-image: url(/images/developer.png),url(/images/header_bg.png);
-    background-repeat: no-repeat;
-    background-position: top left, bottom right;
+
+.bg-color{
+    width: 1330px;
+    background-color: #FFF8F3;
+
 }
 
-nav {
+nav{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin: 20px 100px;
+    justify-content: space-between;
+    margin: 0 165px;
 }
 
-.mery-color {
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+   color:#181818;
+    
+
+}
+
+.title-primary{
     color: #FD6E0A;
 
 }
 
-.nav-title {
-    font-weight: 800;
-    font-size: 45px;
-}
-
-nav ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-nav ul li {
-    margin-right: 40px;
-    list-style: none;
-}
-
-.dark2 {
+.dark2{
     color: #474747;
+    font-size: 25px;
 }
 
-nav ul li a {
-    font-size: 20px;
-    /* color: #474747; */
-    text-decoration: none;
-}
-
-.btn {
-    color: white;
-    background-color: #FD6E0A;
-    font-weight: bold;
-    font-size: 20px;
-    padding: 18px 35px;
-    border-radius: 5px;
-    border: none;
-}
-
-.banner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px 30px 0px 200px;
-}
-
-.banner-content{
-   max-width: 585px;
-}
-
-.banner-greetings {
-    font-weight: 600;
-    font-size: 45px;
-}
-
-.dark1 {
+.dark1{
     color: #181818;
 }
 
-.banner-title {
-    font-weight: bold;
-    font-size: 85px;
-}
-
-.dark3 {
+.dark3{
     color: #757575;
 }
 
-.banner-descrpition {
-    font-size: 18px;
+nav ul{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    gap: 50px;
 }
 
-.banner-profile-pic{
-    width: 580px;
+nav ul li{
+    list-style: none;
 }
+
+nav ul li a{
+    text-decoration: none;
+    text-transform:uppercase;
+    font-weight: bold;
+    
+}
+
+.btn{
+   background-color:#FD6E0A;
+   color: white;
+   border-radius: 5px;
+   border: none;
+   padding: 15px 30px;
+   font-weight: bold;
+   font-size: 20px;
+   /* text-transform: uppercase; */
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.banner-content{
+    width: 500px;
+    margin-left: 160px;
+}
+
+.banner-greetings{
+    font-weight: 600px;
+    font-size: 35px;
+    /* margin-bottom: 5px; */
+}
+
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.banner-description{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn-first{
+    padding: 15px 25px;
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    margin-right: 15px;
+    cursor: pointer;
+    /* border-radius:5px ; */
+}
+.btn-second{
+    padding: 14px 27px;
+    background-color:white ;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    cursor: pointer;
+}
+
+.banner-image{
+    width: 585px;
+}
+
+.bg-image{
+    background-image: url(/images/developer.png), url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+.about-me{
+    width: 850px;
+    background-color: #FFF8F3;
+    border: 1px solid #FFF8F3;
+    padding-left: 150px;
+    margin-top: 100px;
+    margin-left: 244px;
+    border-radius: 10px;
+    /* position: absolute; */
+}
+
+.about-me-area{
+    width: 500px;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    background-color: white;
+    margin-left: 18px;
+}
+
+.about-me-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.about-me-description{
+    font-size: 14px;
+    text-align: center;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* margin-bottom: 100px; */
+    
+}
+
+.about-item{
+    margin-right:-3px;
+}
+
+
+.about-titles{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.about-description{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.what{
+    margin: 260px;
+    /* width: 850px; */
+}
+
+.what-title{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+
+.what-description{
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+.technologies{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 220px;
+}
+
+
+.techno{
+    width: 210px;
+    height: 240px;
+    border-radius: 5px;
+    box-shadow:rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.techno-image{
+    padding: 5px 10px;
+}
+
+
+.techno-title{
+    margin: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.techno-description{
+    margin: 5px;
+    padding-left: 10px;
+}
+
+.edu-exp{
+    margin: 180px;
+}
+
+
+.summery{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    
+}
+
+
+.education{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 55px;
+}
+
+.edu-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.edu-first{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.harvard{
+    font-weight: 600px;
+    font-size: 20px;
+}
+
+.skill{
+    font-size: 16px;
+}
+
+.btn-fle{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn-dwn{
+    /* text-align: center; */
+
+    padding: 15px 25px;
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    /* margin-right: 15px; */
+    border-radius:5px ;
+    cursor: pointer;
+    
+}
+
+.edu-border{
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.footerBG-color{
+    background-color: #FFF8F3;
+}
+
+.contact-from{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 180px 0px 180px;
+    
+
+}
+
+.contact{
+    padding-right: 244px;
+}
+
+.contact-title{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+.contact-description{
+    font-size: 16px;
+    /* padding-right: 15px; */
+}
+
+.my-from{
+    width: 453px;
+}
+
+.from-title{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.text-size{
+    width: 254px;
+    height:10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.email-size{
+    width: 254px;
+    height:10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+.textarea-size{
+    width: 254px;
+    height:20px;
+    padding: 45px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+
+.btn-form{
+    color: white;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 18px 10px 18px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
 
