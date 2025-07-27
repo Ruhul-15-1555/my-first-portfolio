@@ -123,7 +123,7 @@ nav ul li a{
 }
 
 .bg-image{
-    background-image: url(/images/developer.png), url(/images/header_bg.png);
+    background-image: url(//images/developer.png), url(//images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
